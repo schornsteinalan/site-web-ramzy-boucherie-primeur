@@ -9,11 +9,9 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 md:grid-cols-3 md:px-6">
         <div>
           <div className="flex items-center gap-3">
-            <img
-              src="/logo-gharbi.jpg"
-              alt="Logo Boucherie Primeur Gharbi"
-              className="h-12 w-auto rounded-md object-contain"
-            />
+            <span className="flex h-10 w-10 items-center justify-center rounded-md bg-primary font-heading text-lg font-bold text-primary-foreground">
+              G
+            </span>
             <span className="font-heading text-lg font-bold">
               Boucherie Primeur Gharbi
             </span>
