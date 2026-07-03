@@ -24,11 +24,9 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 md:px-6">
         <a href="#top" className="flex items-center gap-3">
-          <img
-            src="/logo-gharbi.jpg"
-            alt="Logo Boucherie Primeur Gharbi"
-            className="h-12 w-auto rounded-md object-contain"
-          />
+          <span className="flex h-10 w-10 items-center justify-center rounded-md bg-primary font-heading text-lg font-bold text-primary-foreground">
+            G
+          </span>
           <span className="flex flex-col leading-tight">
             <span className="font-heading text-base font-bold text-foreground md:text-lg">
               Boucherie Primeur Gharbi
